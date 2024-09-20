@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: prompt;
+    background-color: #d6f4ff;
+}
+h1{
+    text-align: center;
+    color: #6d3b00;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    color: #6d3b00;
+}
+
+input#search {
+    border-radius: 10px;
+    width: 30%;
+    height: 2rem;
+    font-size: 20px;
+    margin-right: 1%;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+td, th {
+    border: 2px solid #6095c6;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #98cbff;
+}
+
+/*style form*/
+form{
+    border: solid 2px #6095c6;
+    border-radius: 20px;
+    background-color: #98cbff;
+    width: 600px;
+    margin: 0 auto;
+}
+form#search{
+    background-color: transparent;
+}
+p{
+    font-size: 1.2rem;
+    margin-left: 5%;
+    color: #6d3b00;
+}
+a{
+    text-align: center;
+    color: #6d3b00;
+}
+input{
+    width: 70%;
+    height: 1.5rem;
+    border-radius: 10px;
+}
+button {
+    width: 7rem;
+    height: 2.5rem;
+    border: solid 2px #6095c6;
+    border-radius: 20px;
+    background-color: #d6f4ff;
+    color: #6d3b00;
+    cursor: pointer;
+}
+button#f{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    background-color: #6095c6;
+    color: white;
+}
