@@ -36,6 +36,12 @@ $result = $conn->query($sql);
 </head>
 
 <body>
+    <div class="menu">
+        <ul>
+            <li><a href="form.html">เพิ่มข้อมูล</a></li>
+            <li><a href="dashboard.php">จัดการข้อมูล</a></li>
+        </ul>
+    </div>
     <h1>การจัดการข้อมูลสมาชิก</h1>
     <div class="search-container">
         <form id="search" method="POST">

@@ -17,12 +17,41 @@ h1{
 }
 
 input#search {
-    border-radius: 10px;
     width: 30%;
     height: 2rem;
     font-size: 20px;
     margin-right: 1%;
 }
+
+.menu {
+    background-color: #6095c6;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 14px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 60px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #6d3b00;
+}
+
+.menu ul li a:hover {
+    color: #d6f4ff;
+}
+
 table {
     border-collapse: collapse;
     width: 80%;
@@ -51,6 +80,9 @@ form{
 }
 form#search{
     background-color: transparent;
+    text-align: center;
+    width: 100%;
+    border: none;
 }
 p{
     font-size: 1.2rem;
